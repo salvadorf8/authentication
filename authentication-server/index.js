@@ -26,4 +26,3 @@ require('./routes/router')(app);
 const port = process.env.PORT || 3090;
 app.listen(port);
 console.log('Server listening on: ' + port);
-console.log('Salvador');
